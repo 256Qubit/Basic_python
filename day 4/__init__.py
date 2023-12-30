@@ -32,3 +32,34 @@ while True:
     else:
         print('n')
 print('program done')
+
+array_1 = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+array_2 = [11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+variable_1 = 1
+variable_2 = 9
+
+for i in range(9):
+    for j in range(variable_1):
+        # for k in range(variable):
+        print(f'{array_2[j]}x{array_1[i]}={array_1[i] * array_2[j]}', end='\t')
+    variable_1 += 1
+    print('')
+
+for i in range(1, 6, 1):
+    for j in range(6 - i, 0, -1):
+        print('*', end='\t')
+    print('')
+
+for i in range(1, 10, 1):
+    for j in range(10 - i, 0, -1):
+        print(f'{array_2[j]}x{array_1[i]}={array_1[i] * array_2[j]}', end='\t')
+    print('')
+print(f'--------------------------------------------------------------------------------------------------')
+for i in range(9):
+    for j in range(variable_2):
+        # for k in range(variable):
+        print(f'{array_2[j]}x{array_1[i]}={array_1[i] * array_2[j]}', end='\t')
+    variable_2 = 9-variable_2
+    print('')
+print(f'--------------------------------------------------------------------------------------------------')

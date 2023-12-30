@@ -5,7 +5,7 @@ def fact(n):
         return n + fact(n - 1)
 
 
-numbers = eval(input('请输入整数'))
+numbers = eval(input('请输入整数：'))
 print(fact(numbers))
 
 i = 1
