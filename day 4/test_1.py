@@ -31,9 +31,19 @@ for i in range(5):
         print('*', end='\t')
     print()
 for i in range(9):
-    for j in range(i+1):
-        print(f'{(j+1)}x{(i+1)}={(j+1)*(i+1)}', end='\t')
+    for j in range(i + 1):
+        print(f'{(j + 1)}x{(i + 1)}={(j + 1) * (i + 1)}', end='\t')
     print()
+print()
+
+row = 5
+for i in range(1, row, 1):
+    for j in range(i):
+        print(' ', end='')
+    for k in range((row - 1) * 2 - (2 * i - 1)):
+        print('*', end='')
+    print()
+    # 控制空格
 # num_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # num_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # for i in range(9):
