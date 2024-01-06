@@ -1,10 +1,21 @@
 s = 'hello world'
-t = "hello world"
+t = "hello,world"
 index = s.index('o')
+# isalnum 判断一串字符串是否全部由数字和字母组成，如果不是则传回false，是则返回true
+value1 = s.isalnum()
+value2 = t.isalnum()
+
+s.capitalize()
+print(s)
+
+print(f'value1 = {value1}')
+print(f'value2 = {value2}')
 
 print(f'index = {index}')
 
 print("first is", format(t))
+
+# format的用法
 
 print("我叫{}，今年{}岁".format("小a", 18))
 print("我叫{},今年{}岁".format("小e", 19))
