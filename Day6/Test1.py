@@ -12,3 +12,6 @@ print(name)
 
 name.extend(["李一", "李二", "李三", "李四"])
 print(name)
+
+del name
+
