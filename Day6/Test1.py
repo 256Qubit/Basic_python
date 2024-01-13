@@ -1,5 +1,6 @@
 name = ["a", "b", "v", "d", "f", "o", "o"]
 
+# remove若有相同，默认删除第一个
 name.remove("o")
 print(name)
 
@@ -95,3 +96,8 @@ for list_i in list_data:
     count += group_sum
     print()
 print(f'count={count}')
+
+# for i in range (len(list_data)):
+#     for j in range(len(list_data[i])):
+#         print(f'{i},{j}', end='\t')
+#     print()
