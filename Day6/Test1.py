@@ -68,7 +68,7 @@ for name in enumerate(numbers_4_list):
 for index, name in enumerate(numbers_4_list):
     print(index, name)
 
-list_data = [[11, 22], [22, 33, 44], [44, 55, 66,77]]
+list_data = [[11, 22], [22, 33, 44], [44, 55, 66, 77]]
 # 封装写法
 for list_i in list_data:
     for list_j in list_i:
